@@ -1,0 +1,35 @@
+# Entornos Virtuales
+venv/
+env/
+*.venv
+
+# Archivos compilados de Python
+*.pyc
+__pycache__/
+
+.env
+
+# Archivos de Base de Datos (si usas SQLite)
+db.sqlite3
+db.sqlite3-*
+
+# Archivos de Secretos y Configuración Local
+.env*
+*.env
+local_settings.py
+# ¡¡¡Añade aquí el nombre de tu archivo de credenciales JSON de Airtable si lo guardaste aquí!!!
+# Ejemplo: optiagro-credentials.json
+
+# Archivos de Log
+*.log
+
+# Archivos estáticos/media generados por Django (si aplica)
+staticfiles/
+media/ # Si es para subidas de usuarios
+
+# Archivos de configuración de IDE (opcional, a veces se configuran globalmente)
+.idea/
+.vscode/
+
+# Otros específicos de paquetes (si los hubiera)
+# .python-version
